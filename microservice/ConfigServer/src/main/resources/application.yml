@@ -1,0 +1,23 @@
+server:
+  port: 8086
+
+
+spring:
+  application:
+    name: CONFIG-SERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://github.com/p18khr/microservice-config.git
+          username: p18khr
+          password: W96JBPF44kR9Qii
+          default-label: main
+          clone-on-start: true
+
+
+
+
+
+
